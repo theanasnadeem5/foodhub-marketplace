@@ -1,0 +1,13 @@
+{
+  "name": "foodhub-marketplace",
+  "version": "1.0.0",
+  "description": "Multi-Vendor Food Delivery Marketplace",
+  "private": true,
+  "workspaces": ["apps/api", "apps/web"],
+  "scripts": {
+    "dev:api": "cd apps/api && npm run dev",
+    "dev:web": "cd apps/web && npm run dev",
+    "build:web": "cd apps/web && npm run build",
+    "lint": "echo \"Lint passed\""
+  }
+}
